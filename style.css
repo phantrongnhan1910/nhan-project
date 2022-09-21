@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 120vh;
+    background: url(./image/banner.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 3rem 5rem;
+    margin-bottom: 7rem;
+}
+
+.logo {
+    font-size: 3.5rem;
+    color: red;
+    font-family: 'Ms Madi', cursive;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li a {
+    margin-left: 4rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.header-text {
+    margin-top: 15rem;
+    text-align: center;
+}
+
+.header-text h1 {
+    color: red;
+    font-size: 6rem;
+}
+
+.header-text .span1 {
+    color: #fff;
+}
+
+.header-text .btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 4rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: #fff;
+    color: red;
+    transition: 0.5s;
+}
+
+.header-text .btn:hover {
+    background-color: red;
+    color: #fff;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+}
+
+
+/* about */
+
+.about-main {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-main .about-img img {
+    width: 45rem;
+    height: 45rem;
+    border-radius: 1rem;
+}
+
+.about-main .about-text {
+    margin-left: 2rem;
+    width: 30rem;
+}
+
+.about-main .btn-about {
+    padding: 0.5rem 1.3rem;
+    background-color: #000;
+    border-radius: 1rem;
+    color: #fff;
+}
+
+.about-main h2 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-top: 1.5rem;
+}
+
+.about-main p {
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    color: rgb(126, 111, 111);
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.about-main h3 {
+    font-size: 1.3rem;
+    color: #767676;
+}
+
+
+/* Special offers */
+
+.section-main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 3rem 8rem;
+}
+
+.section-main .section-food {
+    width: 50%;
+}
+
+.section-main .section-food h3 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.section-main .section-food img {
+    width: 35rem;
+    height: 23rem;
+}
+
+.section-main .section-food h4 {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+}
+
+.section-main .section-food .section-mass button {
+    margin: 1rem 2rem;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    border: 1px solid #eae2e2;
+    border-radius: 3rem;
+    color: #4d4747;
+    font-size: 1.2rem;
+}
+
+.section-main .section-food p {
+    width: 80%;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.section-main .section-price p {
+    font-size: 2.5rem;
+    color: #000;
+    font-weight: 900;
+}
+
+.section-main .section-price span {
+    padding: 0.8rem 2.3rem;
+    background-color: #000;
+    border-radius: 2rem;
+    color: #fff;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+.section-main .section-price span:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.list-food_item .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    border-radius: 2rem;
+    height: 10rem;
+}
+
+.list-food_item .container .box {
+    padding: 3rem 4rem;
+    text-align: center;
+    margin: 1rem 1rem;
+    background-color: #fbf8f6;
+    box-shadow: 0px 5px 40px rgb(126, 111, 111);
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+
+.list-food_item .container .box:hover {
+    transform: scale(1.1);
+}
+
+.list-food_item .container .box .box-content img {
+    width: 12rem;
+    height: auto;
+}
+
+.list-food_item .container .box .box-text h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.list-food_item .container .box .box-text span {
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(225, 23, 23);
+    color: #fff;
+    border-radius: 3rem;
+}
+
+.list-food_item .container .box .box-text p {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.list-food_item .container .box .box-text p:hover {
+    color: rgb(219, 0, 0);
+}
+
+
+/* banner */
+
+.banner {
+    margin-top: 10rem;
+    width: 100%;
+    background-color: rgb(21, 20, 20);
+    height: 180vh;
+}
+
+.banner-top {
+    display: flex;
+}
+
+.banner .banner-top .btn-sale {
+    margin-top: 6rem;
+    padding: 0.3rem 1.5rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+    background-color: red;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.banner .banner-top h1 {
+    width: 35rem;
+    font-size: 4.2rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.banner .banner-top p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.banner .banner-top span {
+    padding: 1rem 3.2rem;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    transition: 1.2s;
+    cursor: pointer;
+}
+
+.banner .banner-top span:hover {
+    background-color: red;
+    border: none;
+    color: #fff;
+}
+
+.banner-bottom {
+    display: flex;
+}
+
+.banner-bottom .banner-text-bottom {
+    margin: 2rem 5.5rem;
+}
+
+.banner-bottom .banner-text-bottom .btn-sale {
+    margin-top: 6rem;
+    padding: 0.3rem 1.5rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+    background-color: red;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.banner-bottom .banner-text-bottom h1 {
+    width: 35rem;
+    font-size: 4.2rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.banner-bottom .banner-text-bottom p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.banner-bottom .banner-text-bottom span {
+    padding: 1rem 3.2rem;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    transition: 1.2s;
+    cursor: pointer;
+}
+
+.banner-bottom .banner-text-bottom span:hover {
+    background-color: red;
+    border: none;
+    color: #fff;
+}
+
+
+/* trending */
+
+.trending h1 {
+    font-size: 4rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+.trending .container .row {
+    display: flex;
+}
+
+.trending .container .row .box {
+    padding: 1rem 1rem;
+    text-align: center;
+    margin: 1rem 1rem;
+    background-color: #fbf8f6;
+    box-shadow: 0px 5px 40px rgb(126, 111, 111);
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+
+.trending .container .row .box:hover {
+    transform: scale(1.1);
+}
+
+.trending .content-text {
+    text-align: center;
+}
+
+.trending .content-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trending .content-price span {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(225, 23, 23);
+    color: #fff;
+    border-radius: 3rem;
+}
+
+.trending .content-price p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.trending .content-price p:hover {
+    color: rgb(219, 0, 0);
+}
+
+
+/* dessert food */
+
+.dessert h1 {
+    font-size: 4rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+.dessert .container .row {
+    display: flex;
+}
+
+.dessert .container .row .box {
+    padding: 1rem 1rem;
+    text-align: center;
+    margin: 1rem 1rem;
+    background-color: #fbf8f6;
+    box-shadow: 0px 5px 40px rgb(126, 111, 111);
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+
+.dessert .container .row .box:hover {
+    transform: scale(1.1);
+}
+
+.dessert .content-text {
+    text-align: center;
+}
+
+.dessert .content-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dessert .content-price span {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(225, 23, 23);
+    color: #fff;
+    border-radius: 3rem;
+}
+
+.dessert .content-price p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.dessert .content-price p:hover {
+    color: rgb(219, 0, 0);
+}
+
+.footer {
+    margin: 10rem 8rem;
+    display: flex;
+}
+
+.footer-text {
+    margin-top: 14rem;
+    margin-left: 2rem;
+}
+
+.footer-text span {
+    padding: 0.3rem 1.5rem;
+    color: #fff;
+    background-color: #000;
+    border-radius: 1rem;
+}
+
+.footer-text h2 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    font-weight: 800;
+}
+
+.footer-text p {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.footer-text h3 {
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+
+/* burger image */
+
+.burger-image {
+    width: 100%;
+    margin-bottom: 6rem;
+}
+
+.burger-img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.burger-img img {
+    width: 24%;
+    height: 20rem;
+    margin: 0.5rem 0.3rem;
+    transition: transform 1.2s;
+}
+
+.burger-img img:hover {
+    transform: scale(0.9)
+}
+
+
+/* Contact */
+
+.contact .container {
+    width: 1164px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .container .contact-item h3 {
+    font-size: 4rem;
+    font-family: 'Ms Madi', cursive;
+    margin-bottom: 0.5rem;
+}
+
+.contact-item .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-item .social ul {
+    transition: 0.5s;
+}
+
+.contact-item .social ul:hover {
+    transform: scale(1.2);
+}
+
+.contact-item h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-item .contact-address {
+    display: flex;
+}
+
+.contact-item .contact-address .contact-icon {
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.contact-item .contact-address .contact-text {
+    font-size: 1.1rem;
+    transition: 0.8s;
+}
+
+.contact-item .contact-address .contact-text:hover {
+    color: red;
+    padding-left: 1rem;
+}
+
+.contact-item ul {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.contact-item ul a {
+    color: #000;
+    transition: 0.5s;
+}
+
+.contact-item ul a:hover {
+    color: red;
+    padding-left: 1rem;
+}
